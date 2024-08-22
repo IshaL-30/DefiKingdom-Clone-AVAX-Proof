@@ -22,17 +22,12 @@
 ## Setup
 
 ### 1. Clone the Repository
-    ```bash
-    git clone https://github.com/your-username/defi-empire.git
-    cd defi-empire
-    ```
+    git clone https://github.com/IshaL-30/DefiKingdom-Clone-AVAX-Proof.git
+    cd DefiKingdom-Clone-AVAX-Proof
 
 ### 2. Install Dependencies
     Install the necessary dependencies:
-
-    ```bash
     npm install
-    ```
 
 ### 3. Create and Deploy Your EVM Subnet
 1. **Install Avalanche-CLI**:
