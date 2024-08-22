@@ -29,6 +29,7 @@
 
 ### 2. Install Dependencies
     Install the necessary dependencies:
+
     ```bash
     npm install
     ```
