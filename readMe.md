@@ -1,13 +1,16 @@
 # Defi Empire: A Simple DeFi Kingdom Clone on Avalanche
 
 ## Overview
-Defi Empire is a decentralized finance (DeFi) game built on a custom EVM subnet on the Avalanche network. Players can collect, build, battle, and earn rewards through various game activities. The project involves deploying ERC20 tokens, a Vault smart contract, and integrating with MetaMask for seamless in-game transactions.
+
+**Defi Empire** is a decentralized finance (DeFi) game built on the Avalanche network. Inspired by DeFi Kingdoms, this project is designed to be a blockchain-based game where players can collect, build, battle, and earn rewards through various in-game activities. The game is powered by a custom EVM subnet and utilizes smart contracts for in-game transactions.
 
 ## Features
-- **Custom EVM Subnet**: Create and deploy a custom Avalanche EVM subnet for game transactions.
-- **ERC20 Token**: Deploy a custom ERC20 token for in-game currency.
-- **Vault**: A vault contract for staking and rewards.
-- **MetaMask Integration**: Seamless integration with MetaMask for transactions.
+
+- **Custom EVM Subnet**: The game operates on a custom EVM subnet on the Avalanche network, providing low fees and fast transaction times.
+- **ERC20 Token Integration**: The game uses a native ERC20 token called "Defi Empire Token" (symbol: DEFIE) for in-game currency.
+- **Vault System**: Players can deposit and withdraw their tokens from a smart contract-based vault.
+- **MetaMask Integration**: Seamless integration with MetaMask for handling in-game transactions.
+- **In-Game Economy**: Players can mint tokens, deposit them into the vault, and withdraw them as they earn and spend within the game.
 
 ## Prerequisites
 - Node.js and npm
@@ -19,16 +22,16 @@ Defi Empire is a decentralized finance (DeFi) game built on a custom EVM subnet 
 ## Setup
 
 ### 1. Clone the Repository
-        ```bash
-        git clone https://github.com/your-username/defi-empire.git
-        cd defi-empire
-        ```
+    ```bash
+    git clone https://github.com/your-username/defi-empire.git
+    cd defi-empire
+    ```
 
 ### 2. Install Dependencies
-        Install the necessary dependencies:
-        ```bash
-        npm install
-        ```
+    Install the necessary dependencies:
+    ```bash
+    npm install
+    ```
 
 ### 3. Create and Deploy Your EVM Subnet
 1. **Install Avalanche-CLI**:
