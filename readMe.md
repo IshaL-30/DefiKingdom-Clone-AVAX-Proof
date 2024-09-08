@@ -1,4 +1,4 @@
-# Defi Empire: A Simple DeFi Kingdom Clone on Avalanche
+# Defi Quest: A Simple DeFi Kingdom Clone on Avalanche
 
 ## Overview
 
@@ -37,7 +37,7 @@
 
 2. **Create a New Subnet**:
    ```bash
-   avalanche subnet create defi-empire --evm
+   avalanche subnet create DefiQuest --evm
    ```
 
 3. **Configure Your Subnet**:
@@ -46,11 +46,26 @@
 
 4. **Deploy the Subnet**:
    ```bash
-   avalanche subnet deploy defi-empire
+   avalanche subnet deploy DefiQuest
    ```
 
 5. **Connect MetaMask to Your Subnet**:
    - Add the subnet to MetaMask as a custom RPC network.
+     ```bash
+        +--------------------------------------------------------------+
+        |                       WALLET CONNECTION                      |
+        +-----------------+--------------------------------------------+
+        | Network RPC URL | http://127.0.0.1:9650/ext/bc/DefiQuest/rpc |
+        +-----------------+--------------------------------------------+
+        | Network Name    | DefiQuest                                  |
+        +-----------------+--------------------------------------------+
+        | Chain ID        | 300802                                     |
+        +-----------------+--------------------------------------------+
+        | Token Symbol    | ISHLU                                      |
+        +-----------------+--------------------------------------------+
+        | Token Name      | ISHLU Token                                |
+        +-----------------+--------------------------------------------+
+     ```
 
 ### 4. Deploy the Smart Contracts
 1. **ERC20 Contract**:
