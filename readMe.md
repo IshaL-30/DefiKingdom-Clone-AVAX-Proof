@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Defi Empire** is a decentralized finance (DeFi) game built on the Avalanche network. Inspired by DeFi Kingdoms, this project is designed to be a blockchain-based game where players can collect, build, battle, and earn rewards through various in-game activities. The game is powered by a custom EVM subnet and utilizes smart contracts for in-game transactions.
+**Defi Quest** is a decentralized finance (DeFi) game built on the Avalanche network. Inspired by DeFi Kingdoms, this project is designed to be a blockchain-based game where players can collect, build, battle, and earn rewards through various in-game activities. The game is powered by a custom EVM subnet and utilizes smart contracts for in-game transactions.
 
 ## Features
 
@@ -48,10 +48,7 @@
    ```bash
    avalanche subnet deploy DefiQuest
    ```
-
-5. **Connect MetaMask to Your Subnet**:
-   - Add the subnet to MetaMask as a custom RPC network.
-     ```bash
+   ```bash
         +--------------------------------------------------------------+
         |                       WALLET CONNECTION                      |
         +-----------------+--------------------------------------------+
@@ -66,6 +63,9 @@
         | Token Name      | ISHLU Token                                |
         +-----------------+--------------------------------------------+
      ```
+
+5. **Connect MetaMask to Your Subnet**:
+   - Add the subnet to MetaMask as a custom RPC network.
 
 ### 4. Deploy the Smart Contracts
 1. **ERC20 Contract**:
